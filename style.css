@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .qorongu-rejim {
+    background: #121212;
+    color: #ffffff;
+  }
+  
+  .kiritish-qutisi {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    width: 400px;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: 0.3s;
+  }
+  
+  li.bajarilgan span {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .vazifa-chap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .vazifa-ong {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .ochirish-tugmasi {
+    background: none;
+    border: none;
+    color: gray;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
